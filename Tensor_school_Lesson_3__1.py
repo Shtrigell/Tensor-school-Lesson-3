@@ -10,13 +10,13 @@ L - один шаг влево
 
 for i in range(len(steps)):
     if (steps[i] == 'U'):
-        y+=1
-    elif(steps[i]=='D'):
-        y-=1
-    elif(steps[i]=='R'):
-        x+=1
-    elif(steps[i]=='L'):
-        x-=1
+        y + = 1
+    elif(steps[i] =='D'):
+        y - = 1
+    elif(steps[i] == 'R'):
+        x + = 1
+    elif(steps[i] == 'L'):
+        x - = 1
     else:
         print("Неизвестная команда")
 print("Ваша координата X: ",x,"Ваша координата Y: ",y)
