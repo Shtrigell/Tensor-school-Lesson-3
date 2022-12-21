@@ -1,6 +1,6 @@
 x = 0
 y = 0
-steps=0
+steps = 0
 while steps != "Уйти":
     steps= input(""" Куда вы хотите пойти:
     U - один шаг вверх
@@ -10,13 +10,13 @@ while steps != "Уйти":
     Если захотите уйти введите - Уйти
     """)
     if steps == "U":
-        y+=1
+        y + = 1
     elif steps == "D":
-        y-=1
+        y - = 1
     elif steps == "R":
-        x+=1
+        x + = 1
     elif steps =="L":
-        x-=1
+        x - = 1
     else:
         print("Неизвестная команда")
 print("Ваша координата X: ",x,"Ваша координата Y: ",y)
